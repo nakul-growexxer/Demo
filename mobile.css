@@ -1,0 +1,31 @@
+@media (max-width: 1024px) {
+  #navbar{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #navbar .nike-logo{
+    margin-bottom: 0.7rem;
+  }
+
+  #navbar ul li{
+    margin-bottom: 0.7rem;
+  }
+
+  #navbar .search-body{
+    margin-bottom: 0.3rem;
+  }
+
+  #content {
+    flex-direction: column ;
+    align-items: center;
+  }
+
+  #content .column-right .wrapper:last-child{
+    display: none;
+  }
+
+  #content .column-right .wrapper:first-child{
+    display: none;
+  }
+}
